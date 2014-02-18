@@ -46,7 +46,7 @@ git commit -m "Your commit message here"
 
 #push your changes to the server
 git checkout myFeatureBranch
-git push
+git push origin myFeatureBranch
 
 #Setup a branch you're not working on not to do a merge everytime it's pulled
 git config branch.otherFeatureBranch.rebase true
